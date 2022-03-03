@@ -1,0 +1,6 @@
+matrix=[10,9,8,7],[6,5,4],[3,2,1]
+flatlist=[num for row in matrix for num in row]
+print(flatlist)
+ 
+output: 
+[10,9,8,7,6,5,4,3,2,1]
